@@ -1,0 +1,10 @@
+﻿<Window x:Class="QuickSnap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+      <Button x:Name="MakeSnapshot" Content="MakeSnapshot" HorizontalAlignment="Left" Margin="206,270,0,0" VerticalAlignment="Top" Width="102" Click="MakeSnapshot_Click"/>
+      <TextBlock x:Name="SystemInfo" HorizontalAlignment="Left" Margin="32,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="236" Width="458"/>
+
+   </Grid>
+</Window>
